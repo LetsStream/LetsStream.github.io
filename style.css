@@ -6,15 +6,23 @@ body{
 }
 
 .main{
-    background-color: black;
+    background-color: #3366cc;
     height: 300px;
-    display: flex;
     flex-direction: row;
+}
+
+
+.container{
+    width: 1000px;
+}
+
+.content{
+    display: flex; 
     justify-content: center;
+
 }
 
 .main .container{
-    width: 1000px;
     display: flex;
     color: white;
     align-items: center;
@@ -36,12 +44,35 @@ body{
     border-radius: 50%;
 }
 
-h1, h2{
+h1, h2, h3{
     margin: 0;
     padding: 0;
-    
+    font-weight: lighter;
+}
+.technologies h2{
+    margin-top: 20px;
+    text-align: center;
 }
 
-h2{
-    color: red;
+.technologies ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.technologies li{
+    display: flex;
+    align-items: center;
+}
+
+.technologies li img{
+    height: 30px;
+    margin-right: 10px;
+    font-weight: lighter;
+    
 }
