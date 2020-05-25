@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.main{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main .container{
+    width: 1000px;
+    display: flex;
+    color: white;
+    align-items: center;
+
+}
+
+.main .container .contact{
+    height: 200px;
+    flex: 3;
+}
+
+.main .container .photo{
+    flex: 1;
+    text-align: center;
+}
+.main .container .photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+    
+}
